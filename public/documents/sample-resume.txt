@@ -1,0 +1,79 @@
+IRADUKUNDA SHAMI HONORE
+Python/Django Backend Developer & AI Enthusiast
+
+Email: shami.honore@example.com
+GitHub: github.com/shamihonore
+LinkedIn: linkedin.com/in/shamihonore
+Location: Available for Remote Work
+
+PROFESSIONAL SUMMARY
+Passionate Python/Django backend developer with expertise in building scalable web applications and AI integrations. Experienced in e-commerce platforms, real-time chat systems, and modern web technologies. Strong focus on clean code, performance optimization, and innovative AI-powered solutions.
+
+TECHNICAL SKILLS
+• Backend: Python, Django, Django REST Framework, FastAPI
+• Databases: PostgreSQL, SQLite, Redis
+• Frontend: React, TypeScript, Tailwind CSS, HTML5, CSS3
+• AI/ML: OpenAI API, Natural Language Processing, Text-to-Speech
+• Tools: Git, Docker, Nginx, Gunicorn, WebSockets
+• Cloud: AWS, Vercel, Netlify, Ubuntu Server Administration
+
+FEATURED PROJECTS
+
+Blog App with User Features (2024)
+• Full-featured blog application with Django and React
+• User authentication, post creation, commenting system
+• Admin dashboard with analytics and content management
+• Technologies: Python, Django, React, PostgreSQL, Tailwind CSS
+
+Mini E-commerce App with Analytics (2024)
+• Complete e-commerce platform with product catalog and shopping cart
+• Payment integration with Stripe API
+• Comprehensive analytics dashboard with Chart.js
+• Technologies: Django, DRF, React, Stripe API, Chart.js, Redis
+
+Online Grocery Store with Chat (2023)
+• Full-stack grocery store with real-time chat support
+• Order management and inventory tracking system
+• WebSocket integration for live customer support
+• Technologies: Django, WebSockets, Vue.js, PostgreSQL, Docker
+
+Accountability App Prototype (2023)
+• Mobile-first web application for goal tracking
+• Peer accountability partnerships and progress tracking
+• Push notifications and motivational features
+• Technologies: FastAPI, React Native, SQLite, Push Notifications
+
+EXPERIENCE
+
+Freelance Backend Developer (2023 - Present)
+• Developed custom web applications for various clients
+• Specialized in Django REST API development and AI integrations
+• Implemented secure authentication systems and payment processing
+• Optimized database queries and application performance
+
+EDUCATION
+
+Self-Taught Developer (2022 - Present)
+• Completed comprehensive online courses in Python and Django
+• Built multiple full-stack projects to demonstrate skills
+• Active contributor to open-source projects
+• Continuous learning in AI/ML technologies and modern web development
+
+CERTIFICATIONS & ACHIEVEMENTS
+• Django REST Framework Certification
+• Python Programming Certification
+• Built 10+ full-stack web applications
+• Active GitHub contributor with 50+ repositories
+• Technical blog writer with focus on Django and AI integration
+
+LANGUAGES
+• English (Fluent)
+• French (Conversational)
+• Kinyarwanda (Native)
+
+INTERESTS
+• Artificial Intelligence and Machine Learning
+• Open Source Contribution
+• Technical Writing and Blogging
+• Web Performance Optimization
+• Modern JavaScript Frameworks
