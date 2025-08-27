@@ -40,6 +40,7 @@ media/
 *.swp
 *.swo
 .venv/
+myenv/
 # OS
 .DS_Store
 Thumbs.db
