@@ -27,6 +27,7 @@ export function Navigation() {
   ]
 
   const aiNavItems = [{ href: "/ai/interview", label: "AI Interview Prep", icon: Brain }]
+  const secretary = [{ href: "/ai/secretary", label: "AI Secretary", icon: Brain }]
 
   const handleLogout = () => {
     logout()
@@ -66,6 +67,16 @@ export function Navigation() {
                 ))}
 
                 {aiNavItems.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className="text-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  >
+                    {item.label}
+                  </a>
+                ))}
+
+                {secretary.map((item) => (
                   <a
                     key={item.href}
                     href={item.href}

@@ -5,7 +5,7 @@ Django settings for portfolio_backend project.
 from pathlib import Path
 from decouple import config
 import os
-
+from dotenv import load_dotenv
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,6 +32,7 @@ INSTALLED_APPS  = [
     'drf_spectacular',
     'api',
     'portfolio',
+    'secretary',
 ]
 
 
@@ -160,3 +161,7 @@ CACHES = {
         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
     }
 }
+
+load_dotenv() 
+
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")

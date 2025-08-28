@@ -31,7 +31,7 @@ media/
 .env
 .env.local
 .env.production
-.venv/
+/venv/
 
 # IDE
 .vscode/

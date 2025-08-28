@@ -8,7 +8,7 @@ import { AuthProvider } from "@/lib/auth"
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-dm-sans",
+  variable: "--font-sans", // keep consistent name
 })
 
 export const metadata: Metadata = {
@@ -25,16 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={dmSans.variable}>
-      <head>
-        <style>{`
-html {
-  font-family: ${dmSans.style.fontFamily};
-  --font-sans: ${dmSans.variable};
-}
-        `}</style>
-      </head>
       <body className="font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
           <AuthProvider>{children}</AuthProvider>
         </ThemeProvider>
       </body>
