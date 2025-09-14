@@ -18,7 +18,7 @@ export function Projects() {
       title: "Mini E-commerce App with Analytics",
       description:
         "E-commerce platform with product catalog, shopping cart, payment integration, and comprehensive analytics dashboard.",
-      technologies: ["Django", "DRF", "React", "Stripe API", "Chart.js", "Redis"],
+      technologies: ["Django", "DRF", "React", "Stripe API"],
       featured: true,
       githubUrl: "#",
       liveUrl: "#",
@@ -27,7 +27,7 @@ export function Projects() {
       title: "Online Grocery Store with Chat",
       description:
         "Full-stack grocery store application with real-time chat support, order management, and inventory tracking.",
-      technologies: ["Django", "WebSockets", "Vue.js", "PostgreSQL", "Docker"],
+      technologies: ["Django", "WebSockets", "PostgreSQL"],
       featured: true,
       githubUrl: "#",
       liveUrl: "#",
@@ -36,7 +36,7 @@ export function Projects() {
       title: "Accountability App Prototype",
       description:
         "Mobile-first web application for goal tracking and accountability partnerships with progress tracking and notifications.",
-      technologies: ["FastAPI", "React Native", "SQLite", "Push Notifications"],
+      technologies: ["FastAPI", "React Native", "SQLite"],
       featured: false,
       githubUrl: "#",
       liveUrl: "#",
@@ -81,10 +81,10 @@ export function Projects() {
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
-                  <Button variant="outline" size="sm">
+                  {/* <Button variant="outline" size="sm">
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live Demo
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>

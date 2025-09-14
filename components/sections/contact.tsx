@@ -151,7 +151,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Email</h3>
-                <p className="text-muted-foreground">shami.honore@example.com</p>
+                <p className="text-muted-foreground">iradukundahonorh@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -160,7 +160,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Location</h3>
-                <p className="text-muted-foreground">Available for remote work</p>
+                <p className="text-muted-foreground">Available for remote work or in-person meetings</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">

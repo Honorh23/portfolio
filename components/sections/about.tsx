@@ -1,8 +1,13 @@
+"use client"
+
+import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Code, Database, Brain, Zap, Sparkles, ArrowRight } from "lucide-react"
+import { SecretaryDialog } from "@/components/ai/secretary-dialog"
 
 export function About() {
+  const [openSecretary, setOpenSecretary] = useState(false)
   const highlights = [
     {
       icon: Code,
@@ -78,6 +83,15 @@ export function About() {
                 <ArrowRight className="h-4 w-4 ml-2" />
               </a>
             </Button>
+
+            <Button
+              size="lg"
+              variant="secondary"
+              className="bg-white text-foreground hover:bg-white/90 shadow"
+              onClick={() => setOpenSecretary(true)}
+            >
+              Chat with AI Secretary
+            </Button>
           </div>
         </div>
 
@@ -119,7 +133,30 @@ export function About() {
             <p className="text-muted-foreground">Client Satisfaction</p>
           </div>
         </div>
+
+        {/* Featured video */}
+        <div className="mt-20 max-w-5xl mx-auto">
+          <div className="text-center mb-6">
+            <h3 className="text-2xl font-bold text-foreground mb-2">Featured Video</h3>
+            <p className="text-muted-foreground">A quick look at my work and approach</p>
+          </div>
+          <Card className="glass border-gradient overflow-hidden hover:shadow-glow transition-shadow">
+            <CardContent className="p-0">
+              <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/toAsio0iMRw"
+                  title="YouTube video player"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </CardContent>
+          </Card>
+        </div>
       </div>
+      <SecretaryDialog open={openSecretary} onOpenChange={setOpenSecretary} />
     </section>
   )
 }

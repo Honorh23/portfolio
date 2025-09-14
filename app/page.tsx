@@ -6,6 +6,7 @@ import { Contact } from "@/components/sections/contact"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { ScrollAITour } from "@/components/ai/scroll-ai-tour"
+import { SecretaryFab } from "@/components/ai/secretary-fab"
 
 export default function HomePage() {
   return (
@@ -30,6 +31,7 @@ export default function HomePage() {
       </main>
       <Footer />
       <ScrollAITour />
+      <SecretaryFab />
     </div>
   )
 }
